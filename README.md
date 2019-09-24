@@ -9,11 +9,11 @@ git clone https://github.com/hzx0129519/cpp.git
 ```
 ### One Time login is required
 
-### Always git pull
+Always git pull
 ```
 git pull
 ```
-### Before
+Before
 ```
 git push
 ```
