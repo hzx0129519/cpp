@@ -13,7 +13,7 @@ Always git pull
 ```
 git pull
 ```
-Before
+Before git push
 ```
 git push
 ```
