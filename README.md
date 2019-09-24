@@ -1,1 +1,6 @@
-# cpp
+# cpp\
+
+install 
+```
+git init
+```
