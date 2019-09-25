@@ -8,11 +8,11 @@ git clone https://github.com/hzx0129519/cpp.git
 ```
 
 
-Always git pull
+Always git pull before git push
 ```
 git pull
 ```
-Before git push
+
 ```
 git commit -m "message"
 git push
