@@ -14,5 +14,6 @@ git pull
 ```
 Before git push
 ```
+git commit -m "message"
 git push
 ```
