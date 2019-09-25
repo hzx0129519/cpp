@@ -5,7 +5,7 @@
 using namespace std;
 
 struct myArray {
-	const size_t initial_size = 1;
+	const size_t initial_size = 2;
 	const size_t growth_factor = 2;
 	size_t length = 0;
 	size_t capacity = initial_size;
@@ -16,6 +16,7 @@ struct myArray {
 int main() {
 	int x; 
 	myArray numbers;
+	numbers.v = new int[numbers.capacity];
 	
 	while (true) {
 		cout << "Please input a numebr (program terminated once a -ve number is entered)" << endl;
