@@ -10,7 +10,7 @@ struct myArray {
 	size_t length = 0;
 	size_t capacity = initial_size;
 
-	int* v; // vector
+	int *v; // vector
 };
 
 int main() {
@@ -18,11 +18,13 @@ int main() {
 	myArray numbers;
 	
 	while (true) {
-		cout << "Please input a numebr (enter -ve number to terminate)" << endl;
-		if (!(cin >> x) || (x < 0)) break;
+		cout << "Please input a numebr (program terminated once a -ve number is entered)" << endl;
+		cin >> x;
+		if (x < 0) 
+			break;
 
 		if (numbers.length == numbers.capacity) {
-			int* temp = new int[numbers.capacity *= numbers.growth_factor];
+			int *temp = new int[numbers.capacity *= numbers.growth_factor];
 			for (size_t i = 0; i < numbers.length; ++i)
 				temp[i] = numbers.v[i];
 			delete[] numbers.v;
