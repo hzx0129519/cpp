@@ -5,6 +5,6 @@ unsigned gcdFinder(unsigned a, unsigned b)
 {
 	if (b == 0)
 		return a;
-	return gcdFinder(a % b, b);
+	return gcdFinder(b, a % b);
 
 }

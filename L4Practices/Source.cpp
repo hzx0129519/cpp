@@ -22,7 +22,6 @@ int main() {
 	//Problem 4
 	cout << isOrdered(v, 4) << endl << endl;
 	
-	
 	//Problem 5
 	cout << nthPrime(100) << endl << endl;
 
