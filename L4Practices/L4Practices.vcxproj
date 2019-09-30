@@ -128,6 +128,7 @@
     <ClCompile Include="printArray.cpp" />
     <ClCompile Include="isOrdered.cpp" />
     <ClCompile Include="nthPrime.cpp" />
+    <ClCompile Include="gcdFinder.cpp" />
     <ClCompile Include="testFormula.cpp" />
   </ItemGroup>
   <ItemGroup>

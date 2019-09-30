@@ -20,7 +20,14 @@ int main() {
 	cout << endl << endl;
 
 	//Problem 4
-	cout << isOrdered(v, 4) << endl;
+	cout << isOrdered(v, 4) << endl << endl;
+	
+	
+	//Problem 5
+	cout << nthPrime(100) << endl << endl;
+
+	//Problem 6
+	cout << gcdFinder(12,100) << endl;
 
 	return 0;
 }

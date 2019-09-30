@@ -1,9 +1,10 @@
+#define _USE_MATH_DEFINES
+
 #include <iostream>
 #include <stdio.h>
 #include<string>
 #include <cmath>
-#define _USE_MATH_DEFINES
-#include <math.h>
+
 
 using namespace std;
 
@@ -19,7 +20,7 @@ void testFormula(double x) {
 	printf("The Formula 4(cos(x))^3 + 3cos(x) = cos(3x) is %s, with eps = %4.2f \n", ((eps < 0.01) ? "valid" : "invalid"), eps);
 
 	double RHS = 0;
-	for (int k = 0; k <= 5000; ++k) {
+	for (int k = 0; k <= 100; ++k) {
 		RHS += (2 * pow(-1, k) * pow(3, -k + 1 / 2)) / (2 * k + 1);
 	}
 	eps = abs(M_PI - RHS);

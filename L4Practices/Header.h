@@ -5,3 +5,4 @@ void testFormula(double x);
 void printArray(const int* v, unsigned n);
 bool isOrdered(const int* v, unsigned n);
 unsigned nthPrime(unsigned n);
+unsigned gcdFinder(unsigned m, unsigned n);
