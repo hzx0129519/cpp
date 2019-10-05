@@ -14,7 +14,7 @@ struct myArray {
 };
 
 int getInteger(const char* promptMsg) {
-	int x;
+	int x; 
 	do {
 		cout << promptMsg << endl;
 		cin >> x;
