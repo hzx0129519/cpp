@@ -1,6 +1,7 @@
 #include<iostream>
 #include<iomanip> // for formatting the output
 #include<cmath> // for calculation 
+#include "getInteger.h"
 
 using namespace std;
 
@@ -13,6 +14,7 @@ struct myArray {
 	int *v; // vector
 };
 
+<<<<<<< HEAD
 int getInteger(const char* promptMsg) {
 	int x; 
 	do {
@@ -21,6 +23,8 @@ int getInteger(const char* promptMsg) {
 	} while (cin.bad());
 	return x;
 }
+=======
+>>>>>>> 184bec31b68f04960ef9dcc30e274e8dd6d55b15
 
 void printArray(const myArray& n) {
 	for (size_t i = 0; i < n.length; ++i)
