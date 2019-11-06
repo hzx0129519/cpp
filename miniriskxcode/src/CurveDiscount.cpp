@@ -27,4 +27,5 @@ double  CurveDiscount::df(const Date& t) const
     double dt = time_frac(m_today, t);
     return std::exp(-r0 * T0 - (r1 * T1 - r0 * T0) / (T1 - T0) * (dt - T0));
 }
+
 } // namespace minirisk
